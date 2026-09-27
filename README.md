@@ -62,8 +62,8 @@ fct_whale_alerts (Table)
 Integrated into the multi-project CI/CD workflow to run automated syntax checks and data assertions on every Pull Request:
 
 ```bash
-dbt run --select stg_btc stg_btc_output fct_whale_alerts --target ci
-dbt test --select stg_btc stg_btc_output fct_whale_alerts --target ci
+dbt run --select stg_btc stg_btc_output fct_whale_alerts 
+dbt test --select stg_btc stg_btc_output fct_whale_alerts 
 🚀 Quickstart Guide
 1. Environment Setup
 Bash
